@@ -1,0 +1,56 @@
+body {
+    background-color: #CDCDCD;
+    font: 24px Raleway;
+    flex-flow: column;
+    display: flex;
+}
+
+#content {
+    display: flex;
+    flex-flow: column;
+    background-color: #fff;
+    margin: 70px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+meny {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    margin-left: 240px;
+}
+
+article {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+}
+
+h1 {
+    font: 34px Raleway;
+    color: #CDCDCD;
+    padding-left: 10px;
+    margin-bottom: -5px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+p, h2 {
+    font: 15px Raleway;
+    color: #CDCDCD;
+    padding-left: 10px;
+}
+
+footer {
+    text-align: right;
+}
+
