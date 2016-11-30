@@ -12,13 +12,18 @@ body {
     margin: 70px;
     margin-top: -10px;
     margin-bottom: -10px;
+    width: 1400px;
+}
+
+header {
+    margin-top: 20px;
 }
 
 meny {
     display: flex;
     flex-flow: row;
     justify-content: flex-start;
-    margin-left: 240px;
+    box-shadow: 0px 2px 4px 0 rgba(156,156,156,0.5);
 }
 
 article {
@@ -41,7 +46,10 @@ h1 {
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 60px;
+}
+a {
+   margin-left: 60px; 
 }
 
 p, h2 {
@@ -53,4 +61,3 @@ p, h2 {
 footer {
     text-align: right;
 }
-
