@@ -50,13 +50,20 @@ nav2 {
     flex-grow: 0.2;
 }
 
-#logo:hover {
+#logo > img:hover {
     filter: grayscale(0%);    
     transform: scale(1.1) rotate3d(1, 2.0, 3.0, 10deg);
 }
 
+#logo:hover {
+    background-color: #FFF;
+}
+
 #logo {
     align-self: flex-end;
+}
+
+#logo > img {    
     filter: grayscale(100%);
     transition: all .5s ease-in-out;
 }
