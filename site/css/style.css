@@ -143,8 +143,9 @@ a:hover {
     margin-left: 60px; 
     text-decoration: none;
     font-weight: normal;
-    background-color: #CDCDCD;
+
 }
+
 
 dropdown a {
     color:#CDCDCD;
@@ -175,7 +176,6 @@ ul li:hover ul {
 
 ul li ul {
   position: absolute;
-  width: 98px;
   padding-left: 60px;
   display: none;
 
@@ -188,14 +188,10 @@ ul li ul li {
 }
 
 ul li ul li a, ul li ul li a:hover {
-    display:block !important;
+    display: block !important;
     color: #fff;
     margin-left: 5px;
-
 } 
-
-
-
 
 ul li ul li a:hover {
     color: #9e9e9e;
