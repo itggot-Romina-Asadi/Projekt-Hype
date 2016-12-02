@@ -24,6 +24,10 @@ header, footer {
     align-items: center;
 }
 
+header {
+    margin-top: 20px;
+}
+
 nav1 {
     background: #CDCDCD;
     flex-grow: 0.2;
@@ -32,11 +36,13 @@ nav1 {
 content1 {
     background: #fff;
     flex-grow: 1;
+    margin: 0px;
+    padding: 0px;
+    width: 1000px;
 }
 
 footer {
     background: white;
-
 }
 
 nav2 {
@@ -50,6 +56,7 @@ nav {
     background: #fff;
     box-shadow: 0px 7px 5px #CDCDCD;
     position: relative;
+    height: 70px;
 }
 
 navtext {
@@ -57,6 +64,7 @@ navtext {
     flex-flow: row;
     background: white;
     text-decoration: none;
+    margin-top: 25px;
 }
 
 h2 {
@@ -126,37 +134,51 @@ dropdown a {
     text-decoration: none;
     font-weight: normal;
     display: inline-block;
+
 }
 
 ul {
   display: inline;
   margin: 0;
   padding: 0;
-
+  
 }
+
 ul li {
     display: inline-block;
+    
 }
 
 ul li:hover ul {
     display: block;
+    width: 250px;
+    
 }
 
 ul li ul {
   position: absolute;
   width: 98px;
+  padding-left: 60px;
   display: none;
 
 }
 ul li ul li { 
   background: #CDCDCD; 
   display: block;
-  margin-left: -65px;
+  padding-right: 165px;
 
 }
 
-ul li ul li a {
+ul li ul li a, ul li ul li a:hover {
     display:block !important;
     color: #fff;
-    margin-right: 2px;
+    margin-left: 5px;
+
+} 
+
+
+
+
+ul li ul li a:hover {
+    color: #9e9e9e;
 } 
