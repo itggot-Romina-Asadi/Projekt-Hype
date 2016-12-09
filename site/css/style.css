@@ -74,10 +74,8 @@ nav2 {
     transition: all .5s ease-in-out;
 }
 
-.hidden {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+nav.hidden {
+    max-height: 0;
 }
 
 nav {
@@ -88,8 +86,16 @@ nav {
     box-shadow: 0px 4px 37px -4px #CDCDCD;
     position: fixed;
     height: 70px;
-    visibility: visible;
-    opacity: 1;    
+    overflow-y: hidden;
+    max-height: 70px; /* approximate max height */
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);  
+}
+
+nav ul li ul {
+    overflow-y: visible;
 }
 
 navtext {
