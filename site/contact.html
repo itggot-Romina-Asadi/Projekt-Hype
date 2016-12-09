@@ -4,6 +4,9 @@
         <meta charset="utf-8" />
         <title>GRAFEN HYPE!!</title>
         <link rel="stylesheet" href="css/style.css" />
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/buttonlistener.js"></script>-->
+        <script type="text/javascript" src="./js/hideNavOnScroll.js"></script>
         <!--@import url("https://fonts.googleapis.com/css?family=Raleway");-->
   </head>
   <body>
@@ -15,13 +18,14 @@
       <nav>
         <navtext>
           <a id="logo" href="./index.html"><img src="./img/logga_hover.png"></a>
-          <h2>
+          <h2>            
             <a href="./about.html">About</a>
-            <dropdown>
+             <a href="./news.html">News</a>
+            <!--<dropdown>
               <ul>
                   <li>
-                    <a href="#">News</a>
-                    <ul>
+                    <a id="newsbtn" href="#">News</a>
+                    <ul id="dropdown">
                       
                       <li><a href="https://www.sciencedaily.com/news/matter_energy/graphene/">Sciencedaily</a></li>
                       <li><a href="https://www.extremetech.com/tag/graphene">Extremetech</a></li>
@@ -30,7 +34,7 @@
                     </ul>
                   </li>
                 </ul>
-              </dropdown>
+              </dropdown>-->
             <a href="./contact.html">Contact</a>
           </h2>
           </navtext>
@@ -38,15 +42,27 @@
       <header><img src="./img/header.png"></header>
       <article>
         <article1>
-        <h1>Contact us</h1>
+        <h1>Contact</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu massa, dignissim eu augue in, pulvinar luctus velit. Pellentesque mi risus, tincidunt et elementum sed, gravida vel sapien. Sed vitae odio elementum, lacinia nulla eu, bibendum purus. Etiam tristique eleifend finibus. </p>
         </article1>
-      <img src="http://www.17u1u.com/file/fj/3w1568507515u55095866t21.jpg">
+      <img src="./img/contact.png">
     </article>
-        <footer></footer>
+    <footer>
+    <div>
+      Copyright @ 2016
+
+      By Linus Styrén and Romina Asadi.      
+    </div>
+    <br />
+      <hr>
+      <br />
+      <p>
+      If you have any questions please do ask us on <a id="maila" href="mailto:grafen@hype.com">grafen@hype.com</a>.
+      <p/>
+    </footer>
     </content1>
     <nav2>
     </nav2>
-    </content>
+    </content>    
   </body>
 </html>

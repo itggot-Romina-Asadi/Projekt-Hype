@@ -49,6 +49,7 @@ footer {
     color: #9E9E9E;
     font-style: bold;
     font-size: 18;
+    margin-top: 15px;
 }
 
 nav2 {
@@ -144,8 +145,6 @@ article1 {
     align-items: flex-start;
     justify-content: center;
     width: 100%;
-    
-    
 }
 
 #primary_nav_wrap
@@ -252,21 +251,19 @@ nav a:hover {
 
 }
 
-
-dropdown a {
+/*dropdown a {
     color:#CDCDCD;
     margin-left: 60px; 
     text-decoration: none;
     font-weight: normal;
     display: inline-block;
 }
-/* + ul li ul*/
-/*
+
 dropdown a:hover + #temp {
     display: block;
     width: 250px;    
 }
-*/
+
 .dropdownhover {
     display: block;
     width: 250px;
@@ -311,4 +308,4 @@ ul li ul li a, ul li ul li a:hover {
 
 ul li ul li a:hover {
     color: #9e9e9e;
-} 
+} */
