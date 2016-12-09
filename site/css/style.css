@@ -154,7 +154,17 @@ dropdown a {
     text-decoration: none;
     font-weight: normal;
     display: inline-block;
-
+}
+/* + ul li ul*/
+/*
+dropdown a:hover + #temp {
+    display: block;
+    width: 250px;    
+}
+*/
+.dropdownhover {
+    display: block;
+    width: 250px;
 }
 
 ul {
@@ -168,13 +178,13 @@ ul li {
     display: inline-block;
     
 }
-
+/*
 ul li:hover ul {
     display: block;
     width: 250px;
     
 }
-
+*/
 ul li ul {
   position: absolute;
   padding-left: 60px;
