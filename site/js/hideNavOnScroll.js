@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	$(document).on('scroll', function() {
     	if($(this).scrollTop()>=target.position().top) {
     		console.log("hide me!");
-        	nav.style = "display: none";
+        	nav.className = "hidden";
         } else {
-        	nav.style = "display: flex";
+        	nav.className = "";
         }
     });
 });

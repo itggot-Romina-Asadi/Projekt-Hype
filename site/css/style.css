@@ -15,7 +15,7 @@ content {
 
 }
 
-header, footer {
+header {
 	margin: 0px;
 	padding: 0px;
 	min-height: 50px;
@@ -42,7 +42,13 @@ content1 {
 }
 
 footer {
-    background: white;
+    text-align: left;
+    background: #eee;
+    min-height: 230px;
+    padding: 10px;
+    color: #9E9E9E;
+    font-style: bold;
+    font-size: 18;
 }
 
 nav2 {
@@ -68,6 +74,12 @@ nav2 {
     transition: all .5s ease-in-out;
 }
 
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
 nav {
     width: 89.5%;    
     display: flex;    
@@ -76,6 +88,8 @@ nav {
     box-shadow: 0px 4px 37px -4px #CDCDCD;
     position: fixed;
     height: 70px;
+    visibility: visible;
+    opacity: 1;    
 }
 
 navtext {
@@ -132,14 +146,26 @@ article1 {
     
 }
 
-a {
+footer a {
+    color:#CDCDCD;
+    text-decoration: none;
+    font-weight: normal;    
+}
+
+footer a:hover {
+    color:#9D9D9D;
+    text-decoration: underline;
+    font-weight: normal;    
+}
+
+nav a {
     color:#CDCDCD;
     margin-left: 60px; 
     text-decoration: none;
     font-weight: normal;
 }
 
-a:hover {
+nav a:hover {
     color:#9E9E9E;
     margin-left: 60px; 
     text-decoration: none;
